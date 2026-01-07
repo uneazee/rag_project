@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "question": "How do you handle exceptions in Python?",
+    "keywords": ["exception", "try", "except", "error", "handling"],
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "question": "Explain graph traversal algorithms",
+    "keywords": ["graph", "traversal", "breadth", "depth", "search"],
+    "difficulty": "hard"
+  },
+  {
+    "id": 3,
+    "question": "How do decorators work in Python?",
+    "keywords": ["decorator", "function", "wrapper", "@"],
+    "difficulty": "hard"
+  },
+  {
+    "id": 4,
+    "question": "Explain list comprehensions in Python",
+    "keywords": ["list", "comprehension", "syntax", "iteration"],
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "What are the applications of virtual reality?",
+    "keywords": ["virtual", "reality", "VR", "applications"],
+    "difficulty": "medium"
+  }
+
+]

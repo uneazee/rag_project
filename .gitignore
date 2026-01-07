@@ -1,0 +1,8 @@
+rag_env/
+__pycache__/
+*.pyc
+.vscode/
+vector_store/
+knowledge_base/
+*.pkl
+*.faiss

@@ -1,0 +1,9 @@
+[
+  {
+    "model": "llama3:8b",
+    "ttft_seconds": 36.59,
+    "ram_mb": 0.52,
+    "response_length": 319,
+    "response_preview": "The TCP three-way handshake is a process used to establish a connection between two devices. It consists of three steps: SYN (synchronize) sent by the..."
+  }
+]

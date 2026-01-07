@@ -1,0 +1,26 @@
+[
+  {
+    "top_k": 1,
+    "latency": 18.69,
+    "answer_length": 419,
+    "sources": 1
+  },
+  {
+    "top_k": 3,
+    "latency": 31.43,
+    "answer_length": 465,
+    "sources": 1
+  },
+  {
+    "top_k": 5,
+    "latency": 33.88,
+    "answer_length": 344,
+    "sources": 1
+  },
+  {
+    "top_k": 10,
+    "latency": 74.28,
+    "answer_length": 508,
+    "sources": 1
+  }
+]

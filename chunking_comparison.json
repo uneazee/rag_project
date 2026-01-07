@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_size": 200,
+    "total_chunks": 20983,
+    "avg_length": 165.87327836820282,
+    "sample": "Algorithms\nFOURTH EDITION\nThis page intentionally left blank \nAlgorithms\nRobert Sedgewick\nand\nKevin Wayne\nPrinceton University\nFOURTH EDITION"
+  },
+  {
+    "chunk_size": 500,
+    "total_chunks": 7625,
+    "avg_length": 465.1912131147541,
+    "sample": "Algorithms\nFOURTH EDITION\nThis page intentionally left blank \nAlgorithms\nRobert Sedgewick\nand\nKevin Wayne\nPrinceton University\nFOURTH EDITION\nUpper Saddle River, NJ \u2022 Boston \u2022 Indianapolis \u2022 San Franc"
+  },
+  {
+    "chunk_size": 1000,
+    "total_chunks": 3912,
+    "avg_length": 963.7292944785277,
+    "sample": "Algorithms\nFOURTH EDITION\nThis page intentionally left blank \nAlgorithms\nRobert Sedgewick\nand\nKevin Wayne\nPrinceton University\nFOURTH EDITION\nUpper Saddle River, NJ \u2022 Boston \u2022 Indianapolis \u2022 San Franc"
+  }
+]

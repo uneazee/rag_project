@@ -1,0 +1,122 @@
+{
+  "model": "phi3:3.8b",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you handle exceptions in Python?",
+      "keywords": [
+        "exception",
+        "try",
+        "except",
+        "error",
+        "handling"
+      ],
+      "difficulty": "medium",
+      "answer": "To handle exceptions in Python, use a `try` block to wrap the code that might cause an exception. Inside this block, place your risky operations or calls. Then follow it with one or more `except` blocks for different types of exceptions you want to catch and handle specifically. You can also include an optional `else` clause which runs when no exceptions occur in the try block, followed by a general `finally` clause that executes code regardless of whether an exception occurred:\n\n```python\ntry:\n    # risky operations or calls here\nexcept ExceptionType1 as e:\n    # handle specific type 1 errors here\nexcept ExceptionType2 as e:\n    # handle specific type 2 errors here\nelse:\n    # code to execute if no exceptions occur in the try block\nfinally:\n    # cleanup actions that must always be executed, regardless of whether an exception occurred or not.\n```\nFor example:\n\n```python\ntry:\n    f = open('myfile.txt')\nexcept FileNotFoundError as e:\n    print(\"File does not exist\")\nelse:\n    # code to execute if file is found and opened successfully \nfinally:\n    f.close()\n```\nReferenced Documentation Source: [8. Errors and Exceptions \u2014 Python 3.14.2 documentation.pdf]",
+      "sources": [
+        "8. Errors and Exceptions \u2014 Python 3.14.2 documentation.pdf",
+        "8. Errors and Exceptions \u2014 Python 3.14.2 documentation.pdf",
+        "8. Errors and Exceptions \u2014 Python 3.14.2 documentation.pdf"
+      ],
+      "time_seconds": 119.78,
+      "faithfulness": 5,
+      "relevance": 5,
+      "keyword_coverage": "4/5"
+    },
+    {
+      "id": 2,
+      "question": "Explain graph traversal algorithms",
+      "keywords": [
+        "graph",
+        "traversal",
+        "breadth",
+        "depth",
+        "search"
+      ],
+      "difficulty": "hard",
+      "answer": "Graph traversal algorithms are methods used to visit all vertices in a graph while following its edges. One classic method is depth-first search (DFS), which explores as far as possible along each branch before backtracking, making it suitable for finding connected components and paths within graphs [Algorithms 4th Ed.pdf]. Another approach mentioned involves using shortest path algorithms to navigate through a graph model of intersections and roads with associated costs or distances [Algorithms 4th Ed.pdf] (Page 651). These traversal techniques are fundamental in solving various problems related to reachability, paths, and strong connectivity within directed graphs (digraphs) as discussed on Page 650-651 of the same document.",
+      "sources": [
+        "Algorithms 4th Ed.pdf",
+        "Algorithms 4th Ed.pdf",
+        "Algorithms 4th Ed.pdf"
+      ],
+      "time_seconds": 66.11,
+      "faithfulness": 5,
+      "relevance": 5,
+      "keyword_coverage": "4/5"
+    },
+    {
+      "id": 3,
+      "question": "How do decorators work in Python?",
+      "keywords": [
+        "decorator",
+        "function",
+        "wrapper",
+        "@"
+      ],
+      "difficulty": "hard",
+      "answer": "I don't have information about that in the documentation.",
+      "sources": [
+        "9. Classes \u2014 Python 3.14.2 documentation.pdf",
+        "9. Classes \u2014 Python 3.14.2 documentation.pdf",
+        "9. Classes \u2014 Python 3.14.2 documentation.pdf"
+      ],
+      "time_seconds": 43.56,
+      "faithfulness": 5,
+      "relevance": 0,
+      "keyword_coverage": "0/4"
+    },
+    {
+      "id": 4,
+      "question": "Explain list comprehensions in Python",
+      "keywords": [
+        "list",
+        "comprehension",
+        "syntax",
+        "iteration"
+      ],
+      "difficulty": "medium",
+      "answer": "List comprehensions provide a concise way to create lists based on existing iterables like other lists or ranges of numbers (see Mapping Types \u2014 dict). They consist of brackets containing an expression followed by one or more for and if clauses. The syntax is similar to set, dictionary, and conditional expressions but with the added ability to iterate over sequences directly within them. List comprehensions can include complex expressions and nested functions as well.\n\nFor example, a list comprehension that combines elements of two lists when they are not equal: `[x for x in range(10) if x != y]` (see 5. Data Structures \u2014 Python 3.14.2 documentation). They can also be used to create new lists from existing ones with conditions, like creating a list of squares without side effects using `squares = [x**2 for x in range(10)]`.\n\nSource: [Data Structures \u2014 Python 3.14.2 documentation](https://docs.python.org/3.14/library/stdtypes.html#dict)",
+      "sources": [
+        "5. Data Structures \u2014 Python 3.14.2 documentation.pdf",
+        "5. Data Structures \u2014 Python 3.14.2 documentation.pdf",
+        "5. Data Structures \u2014 Python 3.14.2 documentation.pdf"
+      ],
+      "time_seconds": 81.24,
+      "faithfulness": 5,
+      "relevance": 5,
+      "keyword_coverage": "3/4"
+    },
+    {
+      "id": 5,
+      "question": "What are the applications of virtual reality?",
+      "keywords": [
+        "virtual",
+        "reality",
+        "VR",
+        "applications"
+      ],
+      "difficulty": "medium",
+      "answer": "According to [vrbook.pdf], one application is in art, where artists and moviemakers introduce depth cues into their work (whether intentionally or as a side effect from observing the physical world) to help audiences understand three-dimensionality of what they are representing with virtual reality technology.",
+      "sources": [
+        "vrbook.pdf",
+        "Understanding-Augmented-Reality-Concepts-and-Applications.pdf",
+        "Understanding-Augmented-Reality-Concepts-and-Applications.pdf"
+      ],
+      "time_seconds": 63.94,
+      "faithfulness": 5,
+      "relevance": 5,
+      "keyword_coverage": "3/4"
+    }
+  ],
+  "summary": {
+    "model": "phi3:3.8b",
+    "avg_faithfulness": 5.0,
+    "avg_relevance": 4.0,
+    "total_time_seconds": 374.63,
+    "avg_time_per_question": 74.93,
+    "min_time": 43.56,
+    "max_time": 119.78,
+    "total_questions": 5
+  }
+}
